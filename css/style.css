@@ -193,11 +193,77 @@ display: block;
 .cases {
 	background-color: #fff;
     overflow: hidden;
-    padding-bottom: 20rem;
+    padding-bottom: 5rem;
 	text-align:center;
     margin-top: 7.875rem;
-   
+   }
 
-.caption {
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.content {
+    width: 60rem;
+}
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+
+footer { 
+    display: block;
+}
+
+
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #55acee;
+}
+
+.social .instagram {
+    color: #55acee;
+}
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.icons {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
     
+}
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
 }
