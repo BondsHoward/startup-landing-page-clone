@@ -96,7 +96,9 @@ margin-left: 1.563rem;
 .contents {
  color: white;
   text-align:center;
- 
+  
+  top: 30%;
+  position: relative; 
 
 }
 
@@ -130,6 +132,9 @@ font-weight: 300;
    color: white;
    text-align: center;
    margin-top: 1.563rem;
+  top: 30%;
+  position: relative; 
+
 }
 
 button {
@@ -149,17 +154,41 @@ button {
     width: 60rem;
 }
 
+.cases h2 {
+   
+font-size: 44px;
+font-weight: 300;
+
+}
+
+
+
 .cases .devices  {
 	display: inline-block;
-	
-	border: 1px solid black;
 	box-sizing: border-box;
 	height: 4em;
+
 }
  
+.cases .devices > li {
+    width: 33.3333333%;
+    float: left;
+    padding-left: 80px;
+    padding-right: 100px;
+     list-style:none;
+}
 
 .cases {
+	background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+	text-align:center;
+    margin-top: 7.875rem;
+   
 
-text-align:center;
+
+.devices {
+  
+
 
 }
