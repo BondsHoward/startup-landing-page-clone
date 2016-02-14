@@ -1,0 +1,165 @@
+
+/* navigation section*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+
+body {
+ 
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+}
+
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation {
+	background-color: #fff;
+    position: fixed;
+	width: 100%;
+    z-index: 9999;
+    border-bottom: 1px solid #DDD;
+}
+	
+.top-navigation > .content  {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
+    background-color: #fff;
+
+}
+
+.top-navigation .logo {
+	height: 4.375rem;
+	margin-left: 1.563rem;
+}
+
+
+
+.top-navigation links li {
+	display: inline-block;
+    margin-left: 25px;
+}
+
+
+
+
+.top-navigation .links {
+float: right;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #838994;
+letter-spacing: 0.03em;
+margin-top: 1.7rem;
+margin-right: 1.7rem;
+}
+
+
+.top-navigation .links > .active {
+
+color: #4c5058;
+font-weight: 500;
+
+}
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+    color: #333333;
+}
+
+.links > li {
+
+display: inline-block;
+margin-left: 1.563rem;
+
+}
+
+
+.content {
+
+ padding: 0px 15px;
+ color: white;	
+ box-sizing: border-box;
+}
+
+.contents {
+ color: white;
+  text-align:center;
+ 
+
+}
+
+.contents h1 {
+display: block;
+font-size: 50px;
+font-weight: 300;
+
+}
+
+ .contents h3 {
+display: block;
+font-size: 25px;
+font-weight: 300;
+}
+
+
+.introduction {
+  background-image: url('../images/first-background.jpg');
+  background-position: center bottom;
+  background-repeat: no repeat;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+}
+
+
+
+.introduction .buttons {
+
+   color: white;
+   text-align: center;
+   margin-top: 1.563rem;
+}
+
+button {
+   width: 9.688rem;
+   background-color: #f15a29;
+   border-color:#f15a29;
+   text-shadow: none;
+   border-radius: 4px;
+   padding:1rem 1.5rem;
+   color: white;
+   font-size: 1.125rem;
+
+}
+
+@media (min-width: 62rem)
+.contents {
+    width: 60rem;
+}
+
+.cases .devices  {
+	display: inline-block;
+	
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+}
+ 
+
+.cases {
+
+text-align:center;
+
+}
